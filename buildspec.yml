@@ -12,7 +12,7 @@ phases:
       - echo Build the project
       - npm run build
       - echo Finished the build project
-artifacts:
-  files:
-    - '**/*' <This means take all the files inside the given directory>
-    - base-directory: '**/dist/angular-tour-of-heroes' /// here you have to give your dist path after the angular project is build, as you have configured in your angular.json. For me it's dist/aws-sample, but for you it can be different.
+  artifacts:
+    files:
+      - '**/*' <This means take all the files inside the given directory>
+      - base-directory: '**/dist/angular-tour-of-heroes' 
