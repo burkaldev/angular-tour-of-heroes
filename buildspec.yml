@@ -12,8 +12,8 @@ phases:
             - npm install -g @angular/cli
     build:
         commands:
-            - echo Build started on `date`
-            - ng build --prod
+            - echo Build started
+            - ng build
 artifacts:
     files:
         - '**/*'
