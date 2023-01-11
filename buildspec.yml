@@ -1,22 +1,4 @@
 version: 0.2
-phases:
-  install:
-    runtime-versions:
-      nodejs: 12
-    commands:
-      - cd angular-tour-of-heroes
-      - echo install node modules
-      - npm install
-  build:
-    commands:
-      - echo Build the project
-      - npm run build
-      - echo Finished the build project
-  artifacts:
-    files:
-      - '**/*' <This means take all the files inside the given directory>
-      - base-directory: '**/dist/angular-tour-of-heroes' 
-version: 0.2
 env:
     variables:
         CACHE_CONTROL: "86400"
